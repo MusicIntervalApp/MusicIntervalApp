@@ -11,7 +11,7 @@ This app will enable people to show case their ear training skills by playing a 
 ### About the Developers
 
 **Alex Rivera**
-
+Alex is a first year Cyber Security student at Maryville University.
 
 
 **Mehak Lodhi**
