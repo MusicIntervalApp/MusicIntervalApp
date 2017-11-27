@@ -96,8 +96,12 @@
     </scenes>
     <resources>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <image name="170914_dsr_tegan_chin_014" width="1840" height="1228"/>
         <image name="IMG_7831" width="577" height="1051"/>
+=======
+        <image name="170914_dsr_tegan_chin_014" width="3680" height="2456"/>
+>>>>>>> 236bbefb2207eff970909dd8f8542446a39436c5
 =======
         <image name="170914_dsr_tegan_chin_014" width="3680" height="2456"/>
 >>>>>>> 236bbefb2207eff970909dd8f8542446a39436c5
