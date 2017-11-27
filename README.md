@@ -10,13 +10,13 @@ This app will enable people to show case their ear training skills by playing a 
 
 ### About the Developers
 
-**Alex**
+**Alex Rivera**
 
 
 
-**Mehak**
+**Mehak Lodhi **
 
-Mehak Lodhi is a second year Cyber Security student at Maryville University. 
+Mehak is a second year Cyber Security student at Maryville University. 
 
 
 **Tegan Chin**
