@@ -14,7 +14,7 @@ This app will enable people to show case their ear training skills by playing a 
 
 
 
-**Mehak Lodhi **
+**Mehak Lodhi**
 
 Mehak is a second year Cyber Security student at Maryville University. 
 
