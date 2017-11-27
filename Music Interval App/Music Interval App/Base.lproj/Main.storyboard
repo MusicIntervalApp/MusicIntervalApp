@@ -28,7 +28,7 @@
                                 <rect key="frame" x="21" y="132" width="111" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fgb-aE-Azv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="professional picture" translatesAutoresizingMaskIntoConstraints="NO" id="fgb-aE-Azv">
                                 <rect key="frame" x="21" y="291" width="111" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -94,5 +94,6 @@
     </scenes>
     <resources>
         <image name="170914_dsr_tegan_chin_014" width="1840" height="1228"/>
+        <image name="professional picture" width="1241" height="1089"/>
     </resources>
 </document>
