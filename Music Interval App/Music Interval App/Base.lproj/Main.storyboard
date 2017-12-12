@@ -10,6 +10,46 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Player Selection-->
+        <scene sceneID="vCJ-oy-Fdc">
+            <objects>
+                <viewController title="Player Selection" id="JYQ-lA-hOo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xBX-kI-bmT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How Many Players?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHY-Qo-ofG">
+                                <rect key="frame" x="77.5" y="85" width="220" height="31.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sTm-ec-Oin">
+                                <rect key="frame" x="125" y="600" width="125" height="42"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="yfT-hz-aak"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Menu">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.61763697862625122" green="0.015991305932402611" blue="0.00638592429459095" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YHY-Qo-ofG" firstAttribute="top" secondItem="ARA-vq-6g9" secondAttribute="top" constant="65" id="BsH-vJ-UP0"/>
+                            <constraint firstItem="YHY-Qo-ofG" firstAttribute="centerX" secondItem="xBX-kI-bmT" secondAttribute="centerX" id="egZ-gc-Yc6"/>
+                            <constraint firstItem="sTm-ec-Oin" firstAttribute="centerX" secondItem="xBX-kI-bmT" secondAttribute="centerX" id="nF1-2Z-Tpy"/>
+                            <constraint firstItem="ARA-vq-6g9" firstAttribute="bottom" secondItem="sTm-ec-Oin" secondAttribute="bottom" constant="25" id="q5W-NW-e7s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ARA-vq-6g9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="INi-gy-wVz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-351.19999999999999" y="1302.9985007496252"/>
+        </scene>
         <!--Main Screen-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -87,9 +127,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="professional picture" translatesAutoresizingMaskIntoConstraints="NO" id="Ti9-LH-47C">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="professional picture" translatesAutoresizingMaskIntoConstraints="NO" id="Ti9-LH-47C">
                                 <rect key="frame" x="14" y="322" width="112" height="130"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="112" id="L9a-al-et9"/>
+                                    <constraint firstAttribute="height" constant="130" id="vhd-hk-0KX"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wm1-f7-wdS">
                                 <rect key="frame" x="147" y="336" width="219" height="129"/>
@@ -106,9 +149,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="170914_dsr_tegan_chin_014" translatesAutoresizingMaskIntoConstraints="NO" id="tA4-Na-oeh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="170914_dsr_tegan_chin_014" translatesAutoresizingMaskIntoConstraints="NO" id="tA4-Na-oeh">
                                 <rect key="frame" x="14" y="496" width="112" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="129" id="EhB-Cn-1ai"/>
+                                    <constraint firstAttribute="width" constant="112" id="jbL-T8-9k9"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tegan Chin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FC1-kh-rfb">
                                 <rect key="frame" x="146" y="491" width="98" height="24"/>
@@ -124,9 +170,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_7831" translatesAutoresizingMaskIntoConstraints="NO" id="Wmd-To-XVN">
-                                <rect key="frame" x="15" y="113" width="111" height="159"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_7831" translatesAutoresizingMaskIntoConstraints="NO" id="Wmd-To-XVN">
+                                <rect key="frame" x="14" y="113" width="111" height="159"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="159" id="9YI-b3-Nkx"/>
+                                    <constraint firstAttribute="width" constant="111" id="nAe-Ox-mOY"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alex Rivera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHe-xs-k2M">
                                 <rect key="frame" x="146" y="113" width="96" height="24"/>
@@ -146,7 +195,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.61763697862625122" green="0.015991305932402611" blue="0.00638592429459095" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="tA4-Na-oeh" firstAttribute="top" secondItem="Ti9-LH-47C" secondAttribute="bottom" constant="44" id="8b2-Wh-MIV"/>
+                            <constraint firstItem="WqD-Yf-5oY" firstAttribute="bottom" secondItem="tA4-Na-oeh" secondAttribute="bottom" constant="42" id="IVj-Cq-cqd"/>
+                            <constraint firstItem="Ti9-LH-47C" firstAttribute="top" secondItem="Wmd-To-XVN" secondAttribute="bottom" constant="50" id="NQ0-lW-Rxu"/>
+                            <constraint firstItem="Wmd-To-XVN" firstAttribute="top" secondItem="TEh-Iv-K6h" secondAttribute="bottom" constant="41.5" id="PhZ-eZ-Plg"/>
                             <constraint firstItem="TEh-Iv-K6h" firstAttribute="top" secondItem="WqD-Yf-5oY" secondAttribute="top" constant="20" id="glY-Yi-fcE"/>
+                            <constraint firstItem="tA4-Na-oeh" firstAttribute="leading" secondItem="WqD-Yf-5oY" secondAttribute="leading" constant="14" id="p6e-jL-D1Z"/>
+                            <constraint firstItem="Ti9-LH-47C" firstAttribute="leading" secondItem="WqD-Yf-5oY" secondAttribute="leading" constant="14" id="qwn-Tg-orR"/>
+                            <constraint firstItem="Wmd-To-XVN" firstAttribute="leading" secondItem="WqD-Yf-5oY" secondAttribute="leading" constant="14" id="wm0-G8-QhZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WqD-Yf-5oY"/>
                     </view>
