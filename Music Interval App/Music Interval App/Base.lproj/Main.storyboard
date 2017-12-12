@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -134,17 +134,19 @@
                                     <constraint firstAttribute="height" constant="130" id="vhd-hk-0KX"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wm1-f7-wdS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wm1-f7-wdS">
                                 <rect key="frame" x="147" y="336" width="219" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="129" id="TbN-4v-pVC"/>
+                                    <constraint firstAttribute="width" constant="219" id="pNj-UZ-dKd"/>
+                                </constraints>
                                 <string key="text">Mehak has been in choir for 8 years, honors choir 4 years, and jazz choir for 2 years, and in a womens acapella group for 3 years.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mehak Lodhi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJK-1f-wec">
-                                <rect key="frame" x="146" y="318" width="113" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Mehak Lodhi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJK-1f-wec">
+                                <rect key="frame" x="147" y="318" width="113" height="24"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -156,16 +158,18 @@
                                     <constraint firstAttribute="width" constant="112" id="jbL-T8-9k9"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tegan Chin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FC1-kh-rfb">
-                                <rect key="frame" x="146" y="491" width="98" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tegan Chin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FC1-kh-rfb">
+                                <rect key="frame" x="147" y="491" width="98" height="24"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tegan has played the flute for 6 years, marched cymbals for 3 years, and was a drum major for her senior year in high school." lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfr-vm-akU">
-                                <rect key="frame" x="146" y="510" width="208" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tegan has played the flute for 6 years, marched cymbals for 3 years, and was a drum major for her senior year in high school." lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfr-vm-akU">
+                                <rect key="frame" x="147" y="510" width="208" height="139"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="139" id="3y8-66-6n3"/>
+                                    <constraint firstAttribute="width" constant="208" id="zgN-ky-0Dy"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -177,16 +181,14 @@
                                     <constraint firstAttribute="width" constant="111" id="nAe-Ox-mOY"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alex Rivera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHe-xs-k2M">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alex Rivera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHe-xs-k2M">
                                 <rect key="frame" x="146" y="113" width="96" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqo-lE-W6s">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqo-lE-W6s">
                                 <rect key="frame" x="146" y="118" width="223" height="149"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Alex has played piano for 12 years, trumpet for 9 years, was in choir for 3 years, and marched and played in the jazz band all of high school.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
@@ -196,13 +198,20 @@
                         <color key="backgroundColor" red="0.61763697862625122" green="0.015991305932402611" blue="0.00638592429459095" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="tA4-Na-oeh" firstAttribute="top" secondItem="Ti9-LH-47C" secondAttribute="bottom" constant="44" id="8b2-Wh-MIV"/>
+                            <constraint firstItem="wHe-xs-k2M" firstAttribute="leading" secondItem="Wmd-To-XVN" secondAttribute="trailing" constant="21" id="8ni-Pq-XPz"/>
                             <constraint firstItem="WqD-Yf-5oY" firstAttribute="bottom" secondItem="tA4-Na-oeh" secondAttribute="bottom" constant="42" id="IVj-Cq-cqd"/>
+                            <constraint firstItem="CJK-1f-wec" firstAttribute="leading" secondItem="Ti9-LH-47C" secondAttribute="trailing" constant="21" id="IjH-f5-4U4"/>
                             <constraint firstItem="Ti9-LH-47C" firstAttribute="top" secondItem="Wmd-To-XVN" secondAttribute="bottom" constant="50" id="NQ0-lW-Rxu"/>
+                            <constraint firstItem="wm1-f7-wdS" firstAttribute="leading" secondItem="Ti9-LH-47C" secondAttribute="trailing" constant="21" id="Pc9-x2-DBi"/>
                             <constraint firstItem="Wmd-To-XVN" firstAttribute="top" secondItem="TEh-Iv-K6h" secondAttribute="bottom" constant="41.5" id="PhZ-eZ-Plg"/>
+                            <constraint firstItem="wHe-xs-k2M" firstAttribute="top" secondItem="TEh-Iv-K6h" secondAttribute="bottom" constant="41.5" id="Qhs-mD-D3P"/>
+                            <constraint firstItem="uqo-lE-W6s" firstAttribute="leading" secondItem="Wmd-To-XVN" secondAttribute="trailing" constant="21" id="XPw-PD-zc3"/>
                             <constraint firstItem="TEh-Iv-K6h" firstAttribute="top" secondItem="WqD-Yf-5oY" secondAttribute="top" constant="20" id="glY-Yi-fcE"/>
                             <constraint firstItem="tA4-Na-oeh" firstAttribute="leading" secondItem="WqD-Yf-5oY" secondAttribute="leading" constant="14" id="p6e-jL-D1Z"/>
                             <constraint firstItem="Ti9-LH-47C" firstAttribute="leading" secondItem="WqD-Yf-5oY" secondAttribute="leading" constant="14" id="qwn-Tg-orR"/>
+                            <constraint firstItem="FC1-kh-rfb" firstAttribute="leading" secondItem="tA4-Na-oeh" secondAttribute="trailing" constant="21" id="sUg-o2-7cX"/>
                             <constraint firstItem="Wmd-To-XVN" firstAttribute="leading" secondItem="WqD-Yf-5oY" secondAttribute="leading" constant="14" id="wm0-G8-QhZ"/>
+                            <constraint firstItem="wfr-vm-akU" firstAttribute="leading" secondItem="tA4-Na-oeh" secondAttribute="trailing" constant="21" id="ygt-1E-LVW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WqD-Yf-5oY"/>
                     </view>
