@@ -15,8 +15,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func unwindToMain(undwindSegue: UIStoryboardSegue){
-    
+    @IBAction func unwindToMain(unwindSegue: UIStoryboardSegue){
+        
     }
     
     override func didReceiveMemoryWarning() {
