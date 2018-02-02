@@ -9,22 +9,13 @@
 import UIKit
 
 class PreGameViewController: UIViewController {
-    var counter: Int = 1
-    var timer: Timer!
-    
-    
-    override func viewDidLoad() {
-            super.viewDidLoad()
-        
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
     }
-        
-//    override func prepare(for segue: levelTransitionsSegue, sender: Any?){
-//        let gameVC = segue.destination as! PreGameViewController
-//        timer = Timer.scheduledTimer(withTimeInterval: 3.0, target: self, selector: #selector(segueToLevelTransitions), userInfo: nil, repeats: true)
-//        
-//    }
-        
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -40,6 +31,5 @@ class PreGameViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 
 }

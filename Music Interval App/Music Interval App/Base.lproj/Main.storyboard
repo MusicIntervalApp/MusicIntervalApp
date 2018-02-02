@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Level PreGame-->
+        <!--PreGameViewController-->
         <scene sceneID="x7U-cA-1Nq">
             <objects>
-                <viewController title="Level PreGame" id="JGS-iJ-MAn" sceneMemberID="viewController">
+                <viewController title="PreGameViewController" id="JGS-iJ-MAn" customClass="PreGameViewController" customModule="Music_Interval_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ai7-La-Wyv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,14 +24,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aN6-pl-LAj">
-                                <rect key="frame" x="164" y="557" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Start"/>
-                                <connections>
-                                    <segue destination="00i-kf-xmA" kind="show" id="zuM-P3-UDK"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.61675126899999999" green="0.01731718652" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -40,15 +32,18 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="d6j-CM-Iif"/>
                     </view>
+                    <connections>
+                        <segue destination="00i-kf-xmA" kind="presentation" identifier="levelTransitions" id="LbR-lK-qTp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NBz-eW-1eK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-722.39999999999998" y="1213.9430284857572"/>
         </scene>
-        <!--View Controller-->
+        <!--GameViewController-->
         <scene sceneID="07J-3a-Bhl">
             <objects>
-                <viewController id="00i-kf-xmA" sceneMemberID="viewController">
+                <viewController title="GameViewController" id="00i-kf-xmA" customClass="GameViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gMu-Nd-DcY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -912,41 +907,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GE1-Hc-u8i">
-                                <rect key="frame" x="114" y="471" width="147" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Connect to Facebook">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6s-6u-Y6y">
-                                <rect key="frame" x="102" y="498" width="171" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Connect to Game Center">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9f8-yy-Rqt">
-                                <rect key="frame" x="123" y="523" width="129" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Connect to Google">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIw-WM-coZ">
-                                <rect key="frame" x="113" y="574" width="149" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="About the Developers">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="DOA-Wi-ZLR" kind="show" id="Qxp-qR-t4s"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G7h-vF-fIJ">
-                                <rect key="frame" x="123" y="617" width="129" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G7h-vF-fIJ">
+                                <rect key="frame" x="128" y="611" width="119" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Back to Menu">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -954,8 +917,24 @@
                                     <segue destination="HYu-LZ-Y5E" kind="unwind" unwindAction="unwindToMainWithUnwindSegue:" id="cwn-EP-i3e"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIw-WM-coZ">
+                                <rect key="frame" x="93" y="565" width="189" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="About the Developers">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DOA-Wi-ZLR" kind="show" id="Qxp-qR-t4s"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.6176369786" green="0.015991305930000001" blue="0.0063859242950000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="G7h-vF-fIJ" firstAttribute="top" secondItem="bIw-WM-coZ" secondAttribute="bottom" constant="10" id="Ko4-1A-bOe"/>
+                            <constraint firstItem="bIw-WM-coZ" firstAttribute="centerX" secondItem="WH1-JL-dd2" secondAttribute="centerX" id="UOh-eR-eaT"/>
+                            <constraint firstItem="G7h-vF-fIJ" firstAttribute="centerX" secondItem="WH1-JL-dd2" secondAttribute="centerX" id="Z5f-37-pFO"/>
+                            <constraint firstItem="3rb-dG-B8j" firstAttribute="bottom" secondItem="G7h-vF-fIJ" secondAttribute="bottom" constant="20" id="toa-IB-f4u"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="3rb-dG-B8j"/>
                     </view>
                 </viewController>
