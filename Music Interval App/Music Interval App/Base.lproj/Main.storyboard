@@ -10,82 +10,40 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="vCJ-oy-Fdc">
+        <!--Level PreGame-->
+        <scene sceneID="x7U-cA-1Nq">
             <objects>
-                <viewController id="JYQ-lA-hOo" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="xBX-kI-bmT">
+                <viewController title="Level PreGame" id="JGS-iJ-MAn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ai7-La-Wyv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How Many Players?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHY-Qo-ofG">
-                                <rect key="frame" x="61" y="85" width="253" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l87-hs-YMk">
+                                <rect key="frame" x="122" y="303.5" width="132" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sTm-ec-Oin">
-                                <rect key="frame" x="125" y="600" width="125" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="yfT-hz-aak"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Menu">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="3nL-en-eSb" kind="unwind" unwindAction="unwindToMainWithUnwindSegue:" id="e4e-Ay-OGp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9c0-IG-aD2">
-                                <rect key="frame" x="60" y="251" width="109" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aN6-pl-LAj">
+                                <rect key="frame" x="164" y="557" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Single Player">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="normal" title="Start"/>
                                 <connections>
-                                    <segue destination="00i-kf-xmA" kind="presentation" id="UA9-sR-bOe"/>
+                                    <segue destination="00i-kf-xmA" kind="show" id="zuM-P3-UDK"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNf-I9-PKa">
-                                <rect key="frame" x="228" y="253" width="97" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Multiplayer">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="RHD-wh-Co6" kind="show" id="8mO-GB-uqe"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kD1-Ef-sWA">
-                                <rect key="frame" x="9" y="613" width="54" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Help">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.61763697862625122" green="0.015991305932402611" blue="0.00638592429459095" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.61675126899999999" green="0.01731718652" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="sTm-ec-Oin" firstAttribute="leading" secondItem="kD1-Ef-sWA" secondAttribute="trailing" constant="62" id="4RU-Hk-fRN"/>
-                            <constraint firstItem="ARA-vq-6g9" firstAttribute="bottom" secondItem="sTm-ec-Oin" secondAttribute="bottom" constant="20" id="6Ro-o1-F2R"/>
-                            <constraint firstItem="YHY-Qo-ofG" firstAttribute="top" secondItem="ARA-vq-6g9" secondAttribute="top" constant="65" id="BsH-vJ-UP0"/>
-                            <constraint firstItem="kD1-Ef-sWA" firstAttribute="leading" secondItem="ARA-vq-6g9" secondAttribute="leading" constant="9" id="NfU-o3-E6x"/>
-                            <constraint firstItem="YHY-Qo-ofG" firstAttribute="centerX" secondItem="xBX-kI-bmT" secondAttribute="centerX" id="egZ-gc-Yc6"/>
-                            <constraint firstItem="sTm-ec-Oin" firstAttribute="centerX" secondItem="xBX-kI-bmT" secondAttribute="centerX" id="nF1-2Z-Tpy"/>
-                            <constraint firstItem="ARA-vq-6g9" firstAttribute="bottom" secondItem="sTm-ec-Oin" secondAttribute="bottom" constant="25" id="q5W-NW-e7s"/>
-                            <constraint firstItem="ARA-vq-6g9" firstAttribute="bottom" secondItem="kD1-Ef-sWA" secondAttribute="bottom" constant="20" id="skG-1B-6xQ"/>
+                            <constraint firstItem="l87-hs-YMk" firstAttribute="centerY" secondItem="Ai7-La-Wyv" secondAttribute="centerY" id="39Y-JP-WB8"/>
+                            <constraint firstItem="l87-hs-YMk" firstAttribute="centerX" secondItem="Ai7-La-Wyv" secondAttribute="centerX" id="ap7-qi-eJC"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ARA-vq-6g9"/>
+                        <viewLayoutGuide key="safeArea" id="d6j-CM-Iif"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="INi-gy-wVz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="3nL-en-eSb" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NBz-eW-1eK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-935.20000000000005" y="1172.5637181409297"/>
+            <point key="canvasLocation" x="-722.39999999999998" y="1213.9430284857572"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="07J-3a-Bhl">
@@ -181,76 +139,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qzw-d4-6aU" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="iGa-Hg-nvS" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-1439.2" y="1942.5787106446778"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="R0H-u0-tXh">
-            <objects>
-                <viewController id="RHD-wh-Co6" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0V4-7S-DdN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWL-AD-Xc6">
-                                <rect key="frame" x="17" y="172" width="161" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Join a Game">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="T0h-sX-cyU" kind="presentation" id="3cB-OP-O1H"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPY-sd-s2c">
-                                <rect key="frame" x="192" y="168" width="158" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Create a Game">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="dsq-uf-VDV" kind="presentation" id="bNB-yz-KJb"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHN-2c-dhI">
-                                <rect key="frame" x="109" y="605" width="125" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="yQ0-M3-n53"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Menu">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="aMz-8t-Pmc" kind="unwind" unwindAction="unwindToMainWithUnwindSegue:" id="zk5-53-2cl"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLg-xf-29G">
-                                <rect key="frame" x="9" y="613" width="38" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Help">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.61763697862625122" green="0.015991305932402611" blue="0.00638592429459095" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="cHN-2c-dhI" firstAttribute="leading" secondItem="hLg-xf-29G" secondAttribute="trailing" constant="62" id="Ana-cC-CXb"/>
-                            <constraint firstItem="Gtj-ad-Qke" firstAttribute="bottom" secondItem="cHN-2c-dhI" secondAttribute="bottom" constant="20" id="Do0-3P-Ems"/>
-                            <constraint firstItem="Gtj-ad-Qke" firstAttribute="bottom" secondItem="hLg-xf-29G" secondAttribute="bottom" constant="20" id="O1X-YA-QL4"/>
-                            <constraint firstItem="hLg-xf-29G" firstAttribute="leading" secondItem="Gtj-ad-Qke" secondAttribute="leading" constant="9" id="dLP-13-Pzc"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="Gtj-ad-Qke"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hfW-wd-XXt" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="aMz-8t-Pmc" userLabel="Exit" sceneMemberID="exit"/>
-            </objects>
-            <point key="canvasLocation" x="-503.19999999999999" y="1942.5787106446778"/>
+            <point key="canvasLocation" x="-876" y="2029"/>
         </scene>
         <!--PlayAgain-->
         <scene sceneID="4LO-tz-8kA">
@@ -282,7 +171,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="00i-kf-xmA" kind="presentation" id="0ZZ-kS-Sjr"/>
+                                    <segue destination="JGS-iJ-MAn" kind="show" id="ReT-oq-1I7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ek-kC-tGn">
@@ -313,126 +202,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vsj-ie-n8a" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="71p-hG-Vud" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-1900" y="2706.2968515742132"/>
-        </scene>
-        <!--JoinGame-->
-        <scene sceneID="p82-7P-o2i">
-            <objects>
-                <viewController title="JoinGame" id="T0h-sX-cyU" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="W10-9v-EP9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3Q-qZ-ERI">
-                                <rect key="frame" x="12" y="123" width="111" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Facebook">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1K-rI-wCP">
-                                <rect key="frame" x="129" y="123" width="134" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Game Center">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCa-FA-80A">
-                                <rect key="frame" x="270" y="124" width="98" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Groups">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E56-3z-hy9">
-                                <rect key="frame" x="12" y="178" width="356" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Group 1">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OFC-fw-M6l">
-                                <rect key="frame" x="12" y="226" width="356" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Group 2">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edX-S0-pDF">
-                                <rect key="frame" x="12" y="274" width="356" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Group 3">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNP-F1-wRg">
-                                <rect key="frame" x="12" y="326" width="356" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Add Group">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDd-3G-Zqj">
-                                <rect key="frame" x="109" y="605" width="125" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="Dmg-In-5tj"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Menu">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="8u4-vy-VeN" kind="unwind" unwindAction="unwindToMainWithUnwindSegue:" id="9e3-lT-FvF"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gj-9D-GLT">
-                                <rect key="frame" x="9" y="613" width="38" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Help">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EIZ-YA-yjE">
-                                <rect key="frame" x="144" y="444" width="105" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="Start">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="00i-kf-xmA" kind="presentation" id="82h-ld-PHE"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.6176369786" green="0.015991305930000001" blue="0.0063859242950000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="FId-4e-EGN" firstAttribute="bottom" secondItem="gDd-3G-Zqj" secondAttribute="bottom" constant="20" id="3UN-ww-4Wj"/>
-                            <constraint firstItem="gDd-3G-Zqj" firstAttribute="leading" secondItem="9gj-9D-GLT" secondAttribute="trailing" constant="62" id="aQF-4X-joC"/>
-                            <constraint firstItem="FId-4e-EGN" firstAttribute="bottom" secondItem="9gj-9D-GLT" secondAttribute="bottom" constant="20" id="r5h-BF-WhJ"/>
-                            <constraint firstItem="9gj-9D-GLT" firstAttribute="leading" secondItem="FId-4e-EGN" secondAttribute="leading" constant="9" id="wtE-q5-ehg"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="FId-4e-EGN"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yDh-yI-5aZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="8u4-vy-VeN" userLabel="Exit" sceneMemberID="exit"/>
-            </objects>
-            <point key="canvasLocation" x="-935" y="2705"/>
+            <point key="canvasLocation" x="-991" y="2886"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="L0m-JS-dl2">
@@ -496,121 +266,6 @@
                 <exit id="K2S-rh-cbM" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="384.80000000000001" y="1942.5787106446778"/>
-        </scene>
-        <!--CreateGame-->
-        <scene sceneID="XN5-yP-uhz">
-            <objects>
-                <viewController title="CreateGame" id="dsq-uf-VDV" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QL4-zz-3Md">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Groups" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRm-5b-ylK">
-                                <rect key="frame" x="36" y="114" width="118" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Connect With" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wmz-oV-n4R">
-                                <rect key="frame" x="36" y="325" width="149" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9H0-P3-3rY">
-                                <rect key="frame" x="37" y="150" width="299" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Choose Group">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BID-Lx-dCm">
-                                <rect key="frame" x="38" y="225" width="299" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="NEW CODE">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mx6-jx-Jg4">
-                                <rect key="frame" x="36" y="363" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="FB">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSI-zs-qZs">
-                                <rect key="frame" x="146" y="363" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="G+">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sb3-JN-JtC">
-                                <rect key="frame" x="256" y="363" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="GC">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ii6-iW-6Lu">
-                                <rect key="frame" x="145" y="495" width="81" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="Start">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="00i-kf-xmA" kind="presentation" id="s4W-U4-z0X"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zqR-Om-beJ">
-                                <rect key="frame" x="109" y="605" width="125" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="0cB-D1-ZNp"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Menu">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="eFP-di-CWN" kind="unwind" unwindAction="unwindToMainWithUnwindSegue:" id="sth-kv-dHW"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EDV-RI-PgM">
-                                <rect key="frame" x="9" y="613" width="38" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Help">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.6176369786" green="0.015991305930000001" blue="0.0063859242950000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="hDm-HN-qb8" firstAttribute="bottom" secondItem="zqR-Om-beJ" secondAttribute="bottom" constant="20" id="DeE-z4-TNY"/>
-                            <constraint firstItem="EDV-RI-PgM" firstAttribute="leading" secondItem="hDm-HN-qb8" secondAttribute="leading" constant="9" id="dym-4W-cZv"/>
-                            <constraint firstItem="hDm-HN-qb8" firstAttribute="bottom" secondItem="EDV-RI-PgM" secondAttribute="bottom" constant="20" id="hm9-qg-OuZ"/>
-                            <constraint firstItem="zqR-Om-beJ" firstAttribute="leading" secondItem="EDV-RI-PgM" secondAttribute="trailing" constant="62" id="l4x-oO-RwL"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="hDm-HN-qb8"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Bzb-E6-9cH" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="eFP-di-CWN" userLabel="Exit" sceneMemberID="exit"/>
-            </objects>
-            <point key="canvasLocation" x="-276" y="2707.1964017991008"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2sh-Sp-nFt">
@@ -1103,7 +758,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="JYQ-lA-hOo" kind="show" id="Oan-Uk-cJ6"/>
+                                    <segue destination="JGS-iJ-MAn" kind="show" id="4Zx-ni-MmV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCJ-EB-LCv">
@@ -1443,6 +1098,6 @@
         <segue reference="WRK-Fx-yfU"/>
         <segue reference="zcc-oj-qyd"/>
         <segue reference="IVb-O0-OjY"/>
-        <segue reference="s4W-U4-z0X"/>
+        <segue reference="4Zx-ni-MmV"/>
     </inferredMetricsTieBreakers>
 </document>
