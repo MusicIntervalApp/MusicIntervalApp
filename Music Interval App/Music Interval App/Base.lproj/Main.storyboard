@@ -64,6 +64,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="FirstChoice:" destination="00i-kf-xmA" eventType="touchUpInside" id="ike-HH-L2b"/>
                                     <segue destination="Bu6-8d-Vsv" kind="presentation" id="IVb-O0-OjY"/>
                                 </connections>
                             </button>
@@ -76,6 +77,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="SecondChoice:" destination="00i-kf-xmA" eventType="touchUpInside" id="cRb-VX-tee"/>
                                     <segue destination="Bu6-8d-Vsv" kind="presentation" id="qTg-OR-RqO"/>
                                 </connections>
                             </button>
@@ -88,6 +90,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="ThirdChoice:" destination="00i-kf-xmA" eventType="touchUpInside" id="A2s-xb-UjC"/>
                                     <segue destination="Bu6-8d-Vsv" kind="presentation" id="dml-fr-q8G"/>
                                 </connections>
                             </button>
@@ -98,6 +101,9 @@
                                 <state key="normal" title="Hear Again">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="HearAgain:" destination="00i-kf-xmA" eventType="touchUpInside" id="FEC-bU-kAQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cub-jG-oyM">
                                 <rect key="frame" x="109" y="605" width="125" height="42"/>
@@ -130,6 +136,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7mD-Up-cJ2"/>
                     </view>
+                    <connections>
+                        <outlet property="StepsLevel" destination="Dod-Sb-zmk" id="9eK-aA-CCf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qzw-d4-6aU" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="iGa-Hg-nvS" userLabel="Exit" sceneMemberID="exit"/>
