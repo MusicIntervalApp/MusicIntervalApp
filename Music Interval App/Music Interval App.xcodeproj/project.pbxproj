@@ -14,6 +14,19 @@
 		1256E19C1FCA86AC00A02B10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1256E19A1FCA86AC00A02B10 /* LaunchScreen.storyboard */; };
 		12D374CD2025165B00B48C5D /* PreGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D374CC2025165B00B48C5D /* PreGameViewController.swift */; };
 		12D374CF2025244F00B48C5D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D374CE2025244F00B48C5D /* GameViewController.swift */; };
+		BB4306972026257F003056AF /* C#Db.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB43068A2026257D003056AF /* C#Db.mp3 */; };
+		BB4306982026257F003056AF /* B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB43068B2026257D003056AF /* B.mp3 */; };
+		BB4306992026257F003056AF /* A#Bb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB43068C2026257D003056AF /* A#Bb.mp3 */; };
+		BB43069A2026257F003056AF /* F#Gb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB43068D2026257E003056AF /* F#Gb.mp3 */; };
+		BB43069B2026257F003056AF /* C4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB43068E2026257E003056AF /* C4.mp3 */; };
+		BB43069C2026257F003056AF /* G#Ab.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB43068F2026257E003056AF /* G#Ab.mp3 */; };
+		BB43069D2026257F003056AF /* C3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB4306902026257E003056AF /* C3.mp3 */; };
+		BB43069E2026257F003056AF /* D.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB4306912026257E003056AF /* D.mp3 */; };
+		BB43069F2026257F003056AF /* D#Eb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB4306922026257E003056AF /* D#Eb.mp3 */; };
+		BB4306A02026257F003056AF /* G.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB4306932026257E003056AF /* G.mp3 */; };
+		BB4306A12026257F003056AF /* E.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB4306942026257E003056AF /* E.mp3 */; };
+		BB4306A22026257F003056AF /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB4306952026257F003056AF /* A.mp3 */; };
+		BB4306A32026257F003056AF /* F.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB4306962026257F003056AF /* F.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,19 @@
 		1256E19D1FCA86AC00A02B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12D374CC2025165B00B48C5D /* PreGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreGameViewController.swift; sourceTree = "<group>"; };
 		12D374CE2025244F00B48C5D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BB43068A2026257D003056AF /* C#Db.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#Db.mp3"; sourceTree = "<group>"; };
+		BB43068B2026257D003056AF /* B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B.mp3; sourceTree = "<group>"; };
+		BB43068C2026257D003056AF /* A#Bb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A#Bb.mp3"; sourceTree = "<group>"; };
+		BB43068D2026257E003056AF /* F#Gb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F#Gb.mp3"; sourceTree = "<group>"; };
+		BB43068E2026257E003056AF /* C4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C4.mp3; sourceTree = "<group>"; };
+		BB43068F2026257E003056AF /* G#Ab.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G#Ab.mp3"; sourceTree = "<group>"; };
+		BB4306902026257E003056AF /* C3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C3.mp3; sourceTree = "<group>"; };
+		BB4306912026257E003056AF /* D.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D.mp3; sourceTree = "<group>"; };
+		BB4306922026257E003056AF /* D#Eb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "D#Eb.mp3"; sourceTree = "<group>"; };
+		BB4306932026257E003056AF /* G.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G.mp3; sourceTree = "<group>"; };
+		BB4306942026257E003056AF /* E.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E.mp3; sourceTree = "<group>"; };
+		BB4306952026257F003056AF /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A.mp3; sourceTree = "<group>"; };
+		BB4306962026257F003056AF /* F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = F.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +89,32 @@
 				1256E1951FCA86AC00A02B10 /* Main.storyboard */,
 				1256E19A1FCA86AC00A02B10 /* LaunchScreen.storyboard */,
 				1256E1981FCA86AC00A02B10 /* Assets.xcassets */,
+				BB43068920262541003056AF /* Pitches Audio */,
 				1256E19D1FCA86AC00A02B10 /* Info.plist */,
 				12D374CC2025165B00B48C5D /* PreGameViewController.swift */,
 				12D374CE2025244F00B48C5D /* GameViewController.swift */,
 			);
 			path = "Music Interval App";
+			sourceTree = "<group>";
+		};
+		BB43068920262541003056AF /* Pitches Audio */ = {
+			isa = PBXGroup;
+			children = (
+				BB4306952026257F003056AF /* A.mp3 */,
+				BB43068C2026257D003056AF /* A#Bb.mp3 */,
+				BB43068B2026257D003056AF /* B.mp3 */,
+				BB43068A2026257D003056AF /* C#Db.mp3 */,
+				BB4306902026257E003056AF /* C3.mp3 */,
+				BB43068E2026257E003056AF /* C4.mp3 */,
+				BB4306912026257E003056AF /* D.mp3 */,
+				BB4306922026257E003056AF /* D#Eb.mp3 */,
+				BB4306942026257E003056AF /* E.mp3 */,
+				BB4306962026257F003056AF /* F.mp3 */,
+				BB43068D2026257E003056AF /* F#Gb.mp3 */,
+				BB4306932026257E003056AF /* G.mp3 */,
+				BB43068F2026257E003056AF /* G#Ab.mp3 */,
+			);
+			path = "Pitches Audio";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +176,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB43069F2026257F003056AF /* D#Eb.mp3 in Resources */,
+				BB43069E2026257F003056AF /* D.mp3 in Resources */,
+				BB4306A02026257F003056AF /* G.mp3 in Resources */,
+				BB43069D2026257F003056AF /* C3.mp3 in Resources */,
+				BB43069C2026257F003056AF /* G#Ab.mp3 in Resources */,
+				BB4306992026257F003056AF /* A#Bb.mp3 in Resources */,
+				BB4306A12026257F003056AF /* E.mp3 in Resources */,
+				BB4306982026257F003056AF /* B.mp3 in Resources */,
 				1256E19C1FCA86AC00A02B10 /* LaunchScreen.storyboard in Resources */,
+				BB4306A32026257F003056AF /* F.mp3 in Resources */,
+				BB43069B2026257F003056AF /* C4.mp3 in Resources */,
+				BB43069A2026257F003056AF /* F#Gb.mp3 in Resources */,
 				1256E1991FCA86AC00A02B10 /* Assets.xcassets in Resources */,
+				BB4306A22026257F003056AF /* A.mp3 in Resources */,
+				BB4306972026257F003056AF /* C#Db.mp3 in Resources */,
 				1256E1971FCA86AC00A02B10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
