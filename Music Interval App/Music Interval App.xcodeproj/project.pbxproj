@@ -12,6 +12,8 @@
 		1256E1971FCA86AC00A02B10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1256E1951FCA86AC00A02B10 /* Main.storyboard */; };
 		1256E1991FCA86AC00A02B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1256E1981FCA86AC00A02B10 /* Assets.xcassets */; };
 		1256E19C1FCA86AC00A02B10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1256E19A1FCA86AC00A02B10 /* LaunchScreen.storyboard */; };
+		12D374CD2025165B00B48C5D /* PreGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D374CC2025165B00B48C5D /* PreGameViewController.swift */; };
+		12D374CF2025244F00B48C5D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D374CE2025244F00B48C5D /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1256E1981FCA86AC00A02B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1256E19B1FCA86AC00A02B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1256E19D1FCA86AC00A02B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D374CC2025165B00B48C5D /* PreGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreGameViewController.swift; sourceTree = "<group>"; };
+		12D374CE2025244F00B48C5D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				1256E1911FCA86AC00A02B10 /* AppDelegate.swift */,
 				1256E1931FCA86AC00A02B10 /* ViewController.swift */,
 				1256E1951FCA86AC00A02B10 /* Main.storyboard */,
-				1256E1981FCA86AC00A02B10 /* Assets.xcassets */,
 				1256E19A1FCA86AC00A02B10 /* LaunchScreen.storyboard */,
+				1256E1981FCA86AC00A02B10 /* Assets.xcassets */,
 				1256E19D1FCA86AC00A02B10 /* Info.plist */,
+				12D374CC2025165B00B48C5D /* PreGameViewController.swift */,
+				12D374CE2025244F00B48C5D /* GameViewController.swift */,
 			);
 			path = "Music Interval App";
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D374CF2025244F00B48C5D /* GameViewController.swift in Sources */,
 				1256E1941FCA86AC00A02B10 /* ViewController.swift in Sources */,
+				12D374CD2025165B00B48C5D /* PreGameViewController.swift in Sources */,
 				1256E1921FCA86AC00A02B10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
