@@ -1057,17 +1057,12 @@
         <image name="professional picture" width="1241" height="1089"/>
     </resources>
     <inferredMetricsTieBreakers>
-<<<<<<< HEAD
-        <segue reference="Ozb-c5-IwI"/>
-        <segue reference="Jyr-9H-n3C"/>
-        <segue reference="WRK-Fx-yfU"/>
-        <segue reference="zcc-oj-qyd"/>
-=======
+
         <segue reference="vI6-4m-4HA"/>
         <segue reference="0jw-Oo-6j0"/>
         <segue reference="0wz-ca-mzK"/>
         <segue reference="S2Z-ws-cZ9"/>
->>>>>>> 19682fbdfe2909d0308e591377cef9ccc787773d
+
         <segue reference="qTg-OR-RqO"/>
         <segue reference="ReT-oq-1I7"/>
     </inferredMetricsTieBreakers>
