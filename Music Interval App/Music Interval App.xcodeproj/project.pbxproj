@@ -92,8 +92,6 @@
 				1256E19A1FCA86AC00A02B10 /* LaunchScreen.storyboard */,
 				1256E1981FCA86AC00A02B10 /* Assets.xcassets */,
 				BB43068920262541003056AF /* Pitches Audio */,
-				BB4306952026257F003056AF /* A.mp3 */,
-				BB43068F2026257E003056AF /* G#Ab.mp3 */,
 				1256E19D1FCA86AC00A02B10 /* Info.plist */,
 				12D374CC2025165B00B48C5D /* PreGameViewController.swift */,
 				12D374CE2025244F00B48C5D /* GameViewController.swift */,
@@ -116,6 +114,8 @@
 				BB4306962026257F003056AF /* F.mp3 */,
 				BB43068D2026257E003056AF /* F#Gb.mp3 */,
 				BB4306932026257E003056AF /* G.mp3 */,
+				BB4306952026257F003056AF /* A.mp3 */,
+				BB43068F2026257E003056AF /* G#Ab.mp3 */,
 			);
 			path = "Pitches Audio";
 			sourceTree = "<group>";
