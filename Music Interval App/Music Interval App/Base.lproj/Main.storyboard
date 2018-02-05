@@ -24,6 +24,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgy-AQ-lkE">
+                                <rect key="frame" x="164" y="617" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <segue destination="00i-kf-xmA" kind="show" id="K3E-ET-gbJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.61675126899999999" green="0.01731718652" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -32,9 +40,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="d6j-CM-Iif"/>
                     </view>
-                    <connections>
-                        <segue destination="00i-kf-xmA" kind="presentation" identifier="levelTransitions" id="LbR-lK-qTp"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NBz-eW-1eK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
