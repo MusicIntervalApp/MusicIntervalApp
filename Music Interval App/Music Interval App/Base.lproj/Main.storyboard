@@ -141,9 +141,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7mD-Up-cJ2"/>
                     </view>
-                    <connections>
-                        <outlet property="StepsLevel" destination="Dod-Sb-zmk" id="9eK-aA-CCf"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qzw-d4-6aU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -568,10 +565,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-
-                                    
                                     <segue destination="BYZ-38-t0r" kind="show" id="9W0-T5-ARQ"/>
-
                                 </connections>
                             </button>
                         </subviews>
@@ -615,9 +609,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-
                                     <segue destination="BYZ-38-t0r" kind="show" id="vI6-4m-4HA"/>
-
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soG-GC-qjp">
@@ -1063,9 +1055,7 @@
         <image name="professional picture" width="1241" height="1089"/>
     </resources>
     <inferredMetricsTieBreakers>
-
         <segue reference="cTI-8p-aac"/>
-
         <segue reference="Jyr-9H-n3C"/>
         <segue reference="WRK-Fx-yfU"/>
         <segue reference="zcc-oj-qyd"/>
