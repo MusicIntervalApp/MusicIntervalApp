@@ -568,11 +568,10 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-<<<<<<< HEAD
-                                    <segue destination="BYZ-38-t0r" kind="show" id="pLl-QQ-xxP"/>
-=======
+
+                                    
                                     <segue destination="BYZ-38-t0r" kind="show" id="9W0-T5-ARQ"/>
->>>>>>> fa19924f43166baf12ca9f6d1344c02cf946f189
+
                                 </connections>
                             </button>
                         </subviews>
@@ -616,11 +615,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-<<<<<<< HEAD
+
                                     <segue destination="BYZ-38-t0r" kind="show" id="vI6-4m-4HA"/>
-=======
-                                    <segue destination="BYZ-38-t0r" kind="show" id="64x-mN-0NH"/>
->>>>>>> fa19924f43166baf12ca9f6d1344c02cf946f189
+
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soG-GC-qjp">
@@ -1066,11 +1063,9 @@
         <image name="professional picture" width="1241" height="1089"/>
     </resources>
     <inferredMetricsTieBreakers>
-<<<<<<< HEAD
-        <segue reference="vI6-4m-4HA"/>
-=======
+
         <segue reference="cTI-8p-aac"/>
->>>>>>> fa19924f43166baf12ca9f6d1344c02cf946f189
+
         <segue reference="Jyr-9H-n3C"/>
         <segue reference="WRK-Fx-yfU"/>
         <segue reference="zcc-oj-qyd"/>
