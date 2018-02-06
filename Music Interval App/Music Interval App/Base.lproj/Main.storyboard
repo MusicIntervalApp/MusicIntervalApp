@@ -24,14 +24,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgy-AQ-lkE">
-                                <rect key="frame" x="164" y="383" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Start"/>
-                                <connections>
-                                    <segue destination="00i-kf-xmA" kind="show" id="K3E-ET-gbJ"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.61675126899999999" green="0.01731718652" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -40,6 +32,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="d6j-CM-Iif"/>
                     </view>
+                    <connections>
+                        <segue destination="00i-kf-xmA" kind="custom" identifier="goToGame" id="53Q-PF-j9T"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NBz-eW-1eK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1051,7 +1046,7 @@
         <image name="professional picture" width="1241" height="1089"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="K3E-ET-gbJ"/>
+        <segue reference="53Q-PF-j9T"/>
         <segue reference="cTI-8p-aac"/>
         <segue reference="0jw-Oo-6j0"/>
         <segue reference="0wz-ca-mzK"/>

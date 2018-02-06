@@ -12,6 +12,7 @@
 		1256E1971FCA86AC00A02B10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1256E1951FCA86AC00A02B10 /* Main.storyboard */; };
 		1256E1991FCA86AC00A02B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1256E1981FCA86AC00A02B10 /* Assets.xcassets */; };
 		1256E19C1FCA86AC00A02B10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1256E19A1FCA86AC00A02B10 /* LaunchScreen.storyboard */; };
+		1297726F20295F4E005DC60D /* AutoSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1297726E20295F4E005DC60D /* AutoSegue.swift */; };
 		12B8CC052026292200FE7097 /* Pitches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8CC042026292200FE7097 /* Pitches.swift */; };
 		12D374CD2025165B00B48C5D /* PreGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D374CC2025165B00B48C5D /* PreGameViewController.swift */; };
 		12D374CF2025244F00B48C5D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D374CE2025244F00B48C5D /* GameViewController.swift */; };
@@ -38,6 +39,7 @@
 		1256E1981FCA86AC00A02B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1256E19B1FCA86AC00A02B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1256E19D1FCA86AC00A02B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1297726E20295F4E005DC60D /* AutoSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSegue.swift; sourceTree = "<group>"; };
 		12B8CC042026292200FE7097 /* Pitches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitches.swift; sourceTree = "<group>"; };
 		12D374CC2025165B00B48C5D /* PreGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreGameViewController.swift; sourceTree = "<group>"; };
 		12D374CE2025244F00B48C5D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				1256E1911FCA86AC00A02B10 /* AppDelegate.swift */,
 				1256E1931FCA86AC00A02B10 /* ViewController.swift */,
 				1256E1951FCA86AC00A02B10 /* Main.storyboard */,
+				1297726E20295F4E005DC60D /* AutoSegue.swift */,
 				1256E19A1FCA86AC00A02B10 /* LaunchScreen.storyboard */,
 				1256E1981FCA86AC00A02B10 /* Assets.xcassets */,
 				BB43068920262541003056AF /* Pitches Audio */,
@@ -209,6 +212,7 @@
 				1256E1941FCA86AC00A02B10 /* ViewController.swift in Sources */,
 				12D374CD2025165B00B48C5D /* PreGameViewController.swift in Sources */,
 				1256E1921FCA86AC00A02B10 /* AppDelegate.swift in Sources */,
+				1297726F20295F4E005DC60D /* AutoSegue.swift in Sources */,
 				12B8CC052026292200FE7097 /* Pitches.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,11 +350,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Music Interval App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.maryville.swdv.fl17.Music-Interval-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -360,11 +367,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Music Interval App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.maryville.swdv.fl17.Music-Interval-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
