@@ -15,7 +15,8 @@ class PreGameViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        perform(Selector("showGameView"), with: nil, afterDelay: 3)
+        perform(Selector("showGameView"), with: nil, afterDelay: 2.0)
+
 
     }
     

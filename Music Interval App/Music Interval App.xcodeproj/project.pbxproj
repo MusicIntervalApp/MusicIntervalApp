@@ -12,6 +12,7 @@
 		1256E1971FCA86AC00A02B10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1256E1951FCA86AC00A02B10 /* Main.storyboard */; };
 		1256E1991FCA86AC00A02B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1256E1981FCA86AC00A02B10 /* Assets.xcassets */; };
 		1256E19C1FCA86AC00A02B10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1256E19A1FCA86AC00A02B10 /* LaunchScreen.storyboard */; };
+		1292F143202CEB3500F81DFD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1292F142202CEB3500F81DFD /* AVFoundation.framework */; };
 		1297726F20295F4E005DC60D /* AutoSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1297726E20295F4E005DC60D /* AutoSegue.swift */; };
 		12B8CC052026292200FE7097 /* Pitches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8CC042026292200FE7097 /* Pitches.swift */; };
 		12D374CD2025165B00B48C5D /* PreGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D374CC2025165B00B48C5D /* PreGameViewController.swift */; };
@@ -39,6 +40,7 @@
 		1256E1981FCA86AC00A02B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1256E19B1FCA86AC00A02B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1256E19D1FCA86AC00A02B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1292F142202CEB3500F81DFD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1297726E20295F4E005DC60D /* AutoSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSegue.swift; sourceTree = "<group>"; };
 		12B8CC042026292200FE7097 /* Pitches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitches.swift; sourceTree = "<group>"; };
 		12D374CC2025165B00B48C5D /* PreGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreGameViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1292F143202CEB3500F81DFD /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +77,7 @@
 			children = (
 				1256E1901FCA86AC00A02B10 /* Music Interval App */,
 				1256E18F1FCA86AC00A02B10 /* Products */,
+				1292F141202CEB3500F81DFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +105,14 @@
 				12B8CC042026292200FE7097 /* Pitches.swift */,
 			);
 			path = "Music Interval App";
+			sourceTree = "<group>";
+		};
+		1292F141202CEB3500F81DFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1292F142202CEB3500F81DFD /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BB43068920262541003056AF /* Pitches Audio */ = {

@@ -12,7 +12,7 @@ class AutoSegue: UIStoryboardSegue {
     
 //    override func perform() {
 //        auto()
-    }
+//    }
     
     
 //    func auto() {

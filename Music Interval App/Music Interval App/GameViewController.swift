@@ -10,7 +10,7 @@ import UIKit
 
 class GameViewController: UIViewController {
 
-    @IBOutlet weak var StepsLevel: UILabel!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,17 +24,6 @@ class GameViewController: UIViewController {
     }
     
 
-    @IBAction func HearAgain(_ sender: Any) {
-    }
-    
-    @IBAction func FirstChoice(_ sender: Any) {
-    }
-    
-    @IBAction func SecondChoice(_ sender: Any) {
-    }
-    
-    @IBAction func ThirdChoice(_ sender: Any) {
-    }
     
 
 }
