@@ -1047,9 +1047,6 @@
         <image name="professional picture" width="1241" height="1089"/>
     </resources>
     <inferredMetricsTieBreakers>
-<<<<<<< HEAD
-        <segue reference="cTI-8p-aac"/>
-=======
         <segue reference="vI6-4m-4HA"/>
 >>>>>>> 783d2f5906f37a462283ac827001015f79088f09
         <segue reference="0jw-Oo-6j0"/>
