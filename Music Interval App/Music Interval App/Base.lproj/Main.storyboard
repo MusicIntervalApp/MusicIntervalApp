@@ -580,9 +580,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Practice on Piano" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJV-k1-he5">
-                                <rect key="frame" x="40" y="20" width="574" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Practice on Piano" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJV-k1-he5">
+                                <rect key="frame" x="91" y="40" width="193.5" height="31.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -615,11 +614,13 @@
                         <color key="backgroundColor" red="0.6176369786" green="0.015991305930000001" blue="0.0063859242950000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="rOG-AX-nPz" firstAttribute="leading" secondItem="C5G-yV-WK6" secondAttribute="leading" id="3kL-s3-jDZ"/>
+                            <constraint firstItem="JJV-k1-he5" firstAttribute="centerX" secondItem="UdD-Q1-PHd" secondAttribute="centerX" id="AsI-ow-93Q"/>
                             <constraint firstItem="C5G-yV-WK6" firstAttribute="bottom" secondItem="soG-GC-qjp" secondAttribute="bottom" constant="20" id="Bpq-C4-uk6"/>
                             <constraint firstItem="C5G-yV-WK6" firstAttribute="bottom" secondItem="8o8-w5-a7z" secondAttribute="bottom" constant="20" id="LYV-5P-zJu"/>
                             <constraint firstItem="8o8-w5-a7z" firstAttribute="centerX" secondItem="UdD-Q1-PHd" secondAttribute="centerX" id="PfX-gY-2Cl"/>
                             <constraint firstItem="C5G-yV-WK6" firstAttribute="bottom" secondItem="8o8-w5-a7z" secondAttribute="bottom" constant="20" id="S3M-ov-BMj"/>
                             <constraint firstItem="rOG-AX-nPz" firstAttribute="trailing" secondItem="C5G-yV-WK6" secondAttribute="trailing" id="ajd-o3-gsM"/>
+                            <constraint firstItem="JJV-k1-he5" firstAttribute="top" secondItem="C5G-yV-WK6" secondAttribute="top" constant="20" id="ffl-jc-sQ7"/>
                             <constraint firstItem="soG-GC-qjp" firstAttribute="leading" secondItem="C5G-yV-WK6" secondAttribute="leading" constant="9" id="xld-mm-bif"/>
                             <constraint firstItem="8o8-w5-a7z" firstAttribute="top" secondItem="rOG-AX-nPz" secondAttribute="bottom" constant="15" id="yb6-KY-YoF"/>
                         </constraints>
@@ -1046,7 +1047,11 @@
         <image name="professional picture" width="1241" height="1089"/>
     </resources>
     <inferredMetricsTieBreakers>
+<<<<<<< HEAD
         <segue reference="cTI-8p-aac"/>
+=======
+        <segue reference="vI6-4m-4HA"/>
+>>>>>>> 783d2f5906f37a462283ac827001015f79088f09
         <segue reference="0jw-Oo-6j0"/>
         <segue reference="0wz-ca-mzK"/>
         <segue reference="S2Z-ws-cZ9"/>
