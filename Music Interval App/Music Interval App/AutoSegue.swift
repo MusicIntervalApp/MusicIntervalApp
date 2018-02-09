@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AutoSegue: UIStoryboardSegue {
+//class AutoSegue: UIStoryboardSegue {
     
 //    override func perform() {
 //        auto()
@@ -37,10 +37,4 @@ class AutoSegue: UIStoryboardSegue {
 //    func autoTime() {
 //        let timer = Timer(timeInterval: 3.0, target: UIStoryboard, selector: Selector, userInfo: nil, repeats: false)
 //    }
-
-    
-    
-
-
-
-}
+//}
