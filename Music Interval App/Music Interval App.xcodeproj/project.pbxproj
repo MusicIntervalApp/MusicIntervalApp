@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		1223978A202E1C3900047A65 /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1223977D202E1C3800047A65 /* A.mp3 */; };
 		1223978B202E1C3900047A65 /* G#Ab.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1223977E202E1C3800047A65 /* G#Ab.mp3 */; };
 		1223978C202E1C3900047A65 /* A#Bb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1223977F202E1C3800047A65 /* A#Bb.mp3 */; };
@@ -20,6 +21,8 @@
 		12239794202E1C3900047A65 /* D#Eb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12239787202E1C3800047A65 /* D#Eb.mp3 */; };
 		12239795202E1C3900047A65 /* F#Gb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12239788202E1C3800047A65 /* F#Gb.mp3 */; };
 		12239796202E1C3900047A65 /* G.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12239789202E1C3900047A65 /* G.mp3 */; };
+=======
+>>>>>>> 69ad4026bdc53e0736adb8f97d5d69bcf8cbd113
 		1256E1921FCA86AC00A02B10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1256E1911FCA86AC00A02B10 /* AppDelegate.swift */; };
 		1256E1941FCA86AC00A02B10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1256E1931FCA86AC00A02B10 /* ViewController.swift */; };
 		1256E1971FCA86AC00A02B10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1256E1951FCA86AC00A02B10 /* Main.storyboard */; };
@@ -28,9 +31,11 @@
 		1292F143202CEB3500F81DFD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1292F142202CEB3500F81DFD /* AVFoundation.framework */; };
 		12B8CC052026292200FE7097 /* Pitches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8CC042026292200FE7097 /* Pitches.swift */; };
 		8FDE54EA202E0C5700AD131F /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE54E9202E0C5700AD131F /* Keys.swift */; };
+		BBCFA486202E1CF30023DE02 /* Pitch Examples-2 in Resources */ = {isa = PBXBuildFile; fileRef = BBCFA485202E1CF30023DE02 /* Pitch Examples-2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		1223977D202E1C3800047A65 /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = A.mp3; path = "../../../../../../../Downloads/Pitch Examples 2/A.mp3"; sourceTree = "<group>"; };
 		1223977E202E1C3800047A65 /* G#Ab.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "G#Ab.mp3"; path = "../../../../../../../Downloads/Pitch Examples 2/G#Ab.mp3"; sourceTree = "<group>"; };
 		1223977F202E1C3800047A65 /* A#Bb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "A#Bb.mp3"; path = "../../../../../../../Downloads/Pitch Examples 2/A#Bb.mp3"; sourceTree = "<group>"; };
@@ -44,6 +49,8 @@
 		12239787202E1C3800047A65 /* D#Eb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "D#Eb.mp3"; path = "../../../../../../../Downloads/Pitch Examples 2/D#Eb.mp3"; sourceTree = "<group>"; };
 		12239788202E1C3800047A65 /* F#Gb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "F#Gb.mp3"; path = "../../../../../../../Downloads/Pitch Examples 2/F#Gb.mp3"; sourceTree = "<group>"; };
 		12239789202E1C3900047A65 /* G.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = G.mp3; path = "../../../../../../../Downloads/Pitch Examples 2/G.mp3"; sourceTree = "<group>"; };
+=======
+>>>>>>> 69ad4026bdc53e0736adb8f97d5d69bcf8cbd113
 		1256E18E1FCA86AC00A02B10 /* Music Interval App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Interval App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1256E1911FCA86AC00A02B10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1256E1931FCA86AC00A02B10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +61,7 @@
 		1292F142202CEB3500F81DFD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		12B8CC042026292200FE7097 /* Pitches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitches.swift; sourceTree = "<group>"; };
 		8FDE54E9202E0C5700AD131F /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		BBCFA485202E1CF30023DE02 /* Pitch Examples-2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Pitch Examples-2"; path = "../../../../../Desktop/Pitch Examples-2"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		12239760202E1B4B00047A65 /* Pitches */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +97,8 @@
 			path = Pitches;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> 69ad4026bdc53e0736adb8f97d5d69bcf8cbd113
 		1256E1851FCA86AC00A02B10 = {
 			isa = PBXGroup;
 			children = (
@@ -113,10 +124,10 @@
 				1256E1951FCA86AC00A02B10 /* Main.storyboard */,
 				1256E19A1FCA86AC00A02B10 /* LaunchScreen.storyboard */,
 				1256E1981FCA86AC00A02B10 /* Assets.xcassets */,
+				BBCFA485202E1CF30023DE02 /* Pitch Examples-2 */,
 				1256E19D1FCA86AC00A02B10 /* Info.plist */,
 				12B8CC042026292200FE7097 /* Pitches.swift */,
 				8FDE54E9202E0C5700AD131F /* Keys.swift */,
-				12239760202E1B4B00047A65 /* Pitches */,
 			);
 			path = "Music Interval App";
 			sourceTree = "<group>";
@@ -188,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				12239793202E1C3900047A65 /* C3.mp3 in Resources */,
 				1223978C202E1C3900047A65 /* A#Bb.mp3 in Resources */,
 				12239790202E1C3900047A65 /* D.mp3 in Resources */,
@@ -202,7 +214,11 @@
 				1223978D202E1C3900047A65 /* B.mp3 in Resources */,
 				12239792202E1C3900047A65 /* F.mp3 in Resources */,
 				12239795202E1C3900047A65 /* F#Gb.mp3 in Resources */,
+=======
+				1256E19C1FCA86AC00A02B10 /* LaunchScreen.storyboard in Resources */,
+>>>>>>> 69ad4026bdc53e0736adb8f97d5d69bcf8cbd113
 				1256E1991FCA86AC00A02B10 /* Assets.xcassets in Resources */,
+				BBCFA486202E1CF30023DE02 /* Pitch Examples-2 in Resources */,
 				1256E1971FCA86AC00A02B10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
