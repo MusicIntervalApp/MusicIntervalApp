@@ -18,7 +18,7 @@
         <!--Piano Screen-->
         <scene sceneID="Xy6-Ey-ACu">
             <objects>
-                <viewController title="Piano Screen" modalTransitionStyle="flipHorizontal" id="Hzz-OE-Kw3" sceneMemberID="viewController">
+                <viewController title="Piano Screen" modalTransitionStyle="flipHorizontal" id="Hzz-OE-Kw3" customClass="ViewController" customModule="Music_Interval_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UdD-Q1-PHd">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,6 +29,9 @@
                                 <state key="normal" title="Help">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="DOA-Wi-ZLR" kind="show" id="Pik-wU-iYp"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="rOG-AX-nPz">
                                 <rect key="frame" x="0.0" y="117" width="667" height="141"/>
@@ -56,6 +59,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bp-Gb-IRn" userLabel="C3">
                                 <rect key="frame" x="1" y="208" width="40" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="C3:" destination="Hzz-OE-Kw3" eventType="touchUpInside" id="xVY-zP-vDR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="048-WR-utg" userLabel="Db">
                                 <rect key="frame" x="26" y="117" width="28" height="92"/>

@@ -41,6 +41,10 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func C3(_ sender: Any) {
+        musicEffect.play()
+        
+    }
     
 
 }
