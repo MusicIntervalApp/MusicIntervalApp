@@ -7,13 +7,28 @@
 //
 
 import UIKit
+import AVFoundation
+
 
 class ViewController: UIViewController {
+    
+    var musicEffect: AVAudioPlayer = AVAudioPlayer()
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-
+        
+        let soundC3 = Bundle.main.path(forResource: "C3", ofType: ".mp3")
+        do {
+            try musicEffect = AVAudioPlayer(contentsOf:URL(fileURLWithPath: soundC3!))
+        
+        }
+        catch {
+            print(error)
+        
+        }
         
     }
     
@@ -22,9 +37,15 @@ class ViewController: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
-
+    
+    
+    @IBAction func C3(_ sender: Any) {
+        musicEffect.play()
+        
+    }
+    
 
 }
 
