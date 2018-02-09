@@ -14,6 +14,7 @@
 		1256E19C1FCA86AC00A02B10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1256E19A1FCA86AC00A02B10 /* LaunchScreen.storyboard */; };
 		1292F143202CEB3500F81DFD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1292F142202CEB3500F81DFD /* AVFoundation.framework */; };
 		12B8CC052026292200FE7097 /* Pitches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8CC042026292200FE7097 /* Pitches.swift */; };
+		8FDE54EA202E0C5700AD131F /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE54E9202E0C5700AD131F /* Keys.swift */; };
 		BB4306972026257F003056AF /* C#Db.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB43068A2026257D003056AF /* C#Db.mp3 */; };
 		BB4306982026257F003056AF /* B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB43068B2026257D003056AF /* B.mp3 */; };
 		BB4306992026257F003056AF /* A#Bb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB43068C2026257D003056AF /* A#Bb.mp3 */; };
@@ -39,6 +40,7 @@
 		1256E19D1FCA86AC00A02B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1292F142202CEB3500F81DFD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		12B8CC042026292200FE7097 /* Pitches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitches.swift; sourceTree = "<group>"; };
+		8FDE54E9202E0C5700AD131F /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		BB43068A2026257D003056AF /* C#Db.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#Db.mp3"; sourceTree = "<group>"; };
 		BB43068B2026257D003056AF /* B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B.mp3; sourceTree = "<group>"; };
 		BB43068C2026257D003056AF /* A#Bb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A#Bb.mp3"; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				BB43068920262541003056AF /* Pitches Audio */,
 				1256E19D1FCA86AC00A02B10 /* Info.plist */,
 				12B8CC042026292200FE7097 /* Pitches.swift */,
+				8FDE54E9202E0C5700AD131F /* Keys.swift */,
 			);
 			path = "Music Interval App";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1256E1941FCA86AC00A02B10 /* ViewController.swift in Sources */,
+				8FDE54EA202E0C5700AD131F /* Keys.swift in Sources */,
 				1256E1921FCA86AC00A02B10 /* AppDelegate.swift in Sources */,
 				12B8CC052026292200FE7097 /* Pitches.swift in Sources */,
 			);
